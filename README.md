@@ -15,3 +15,7 @@ Entonces hay que dar clic derecho sobre el proyecto en
 
 El proyecto esta basado en el tutorial de JavaFX:
 [http://code.makery.ch](http://code.makery.ch/library/javafx-8-tutorial/es/).
+
+Una explicación de como viajan las peticiones dentro de la aplicación:
+
+![Explicación](./src/main/resources/docs/diagramafuncionamiento.png)
