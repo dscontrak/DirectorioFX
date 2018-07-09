@@ -1,0 +1,6 @@
+target/
+archivo.db
+*.zip
+*.rar
+*.7z
+*.epgz
