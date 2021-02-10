@@ -30,7 +30,7 @@ public class MainApp extends Application {
     private final File archivo = new File("./archivo.db");
     DataBaseManager db;
     final Image iconoApp = new Image(getClass().getResourceAsStream("/img/icons/icon.png"));
-
+    
     private final ObservableList<Person> personData = FXCollections.observableArrayList();
 
     public ObservableList<Person> getPersonData() {
@@ -81,8 +81,8 @@ public class MainApp extends Application {
             //loader.setLocation(MainApp.class.getResource("view/RootLayout.fxml"));
 
             //rootLayout = (BorderPane) loader.load();
-            rootLayout = (BorderPane) FXMLLoader.load(getClass().getResource("/fxml/RootLayout.fxml"));
-
+            rootLayout = (BorderPane) FXMLLoader.load(getClass().getResource("/fxml/RootLayout.fxml"));            
+            
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
           
@@ -151,7 +151,7 @@ public class MainApp extends Application {
             // Set the person into the controller.
             PersonEditDialogController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setPerson(person);
+            controller.setPerson(person);                        
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

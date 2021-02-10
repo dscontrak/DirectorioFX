@@ -64,7 +64,7 @@
                      <children>
                         <Button mnemonicParsing="false" onAction="#handleNewPerson" text="Nuevo..." />
                         <Button mnemonicParsing="false" onAction="#handleEditPerson" text="Editar..." />
-                        <Button mnemonicParsing="false" onAction="#handleDeletePerson" prefHeight="33.0" prefWidth="92.0" text="Borrar" />
+                        <Button mnemonicParsing="false" onAction="#handleDeletePerson" text="Borrar" />
                      </children>
                      <padding>
                         <Insets left="10.0" top="10.0" />
